@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP</title>
+    <link rel="stylesheet" href="signup.css?v=<?php echo time(); ?>">
+</head>
+<body>
+    <div class="login-window">
+        <form action="insertid.php" method="post">
+            <div class="details">
+                <p>Visual Space  </p><p class="gray">  | Romance until death
+                </p>
+                <h3>Over 30 Million<br> Shaping the perfect Space</h3>
+                <p class="gray">Currently only supports iOS and MAC</p>
+            </div>
+
+            <div class="details">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Your email-id" name="email">
+            </div>
+            <div class="details">
+                <label for="id">User:</label>
+                <input type="text" placeholder="Your User Name" name="user">
+            </div>
+            <div class="details">
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Your email-id" name="pass">
+            </div>
+
+            <!-- <div class="chkbox">
+                <input type="checkbox" value="agree" name="agree"> <p>I agree to the platform accepting <a href="">information</a></p>
+            </div> -->
+
+            <div class="details">
+                <input type="submit" value="SignUp" name="add">
+            </div>
+
+            <div class="details">
+                <p>Already have account? <a href="signin.html">   SignIn</a></p>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

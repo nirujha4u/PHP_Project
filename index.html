@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-window</title>
+    <link rel="stylesheet" href="signin.css?v=<?php echo time(); ?>">
+</head>
+<body>
+    <div class="container">
+        <div class="login-window">
+            <form action="connection.php" method="post">
+                <div class="details">
+                    <p>Visual Space  </p><p class="gray">  | Romance until death
+                    </p>
+                    <h3>Over 30 Million<br> Shaping the perfect Space</h3>
+                    <p class="gray">Currently only supports iOS and MAC</p>
+                </div>
+                <div class="details">
+                    <label for="user">User Name:</label>
+                    <input type="text" placeholder="Your user-id" name="user">
+                </div>
+                <div class="details">
+                    <label for="password">Password:</label>
+                    <input type="password" placeholder="password" name="pass">
+                </div>
+
+                <!-- <div class="detail">
+                    <input type="checkbox" value="agree" name="agree"> <p>I agree to the platform accepting information</p>
+                </div> -->
+
+                <div class="details">
+                    <input type="submit" value="Login" name="login">
+                </div>
+
+                <div class="details">
+                    <p>No account Yet? <a href="signup.html">   Registered</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
